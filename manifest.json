@@ -1,0 +1,123 @@
+{
+  "name": "InVideo Edu - Guia para Professores",
+  "short_name": "InVideo Edu",
+  "description": "Aplicação gratuita para ajudar professores portugueses a usar o InVideo AI na criação de vídeos educativos de qualidade",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007c89",
+  "orientation": "portrait-primary",
+  "scope": "./",
+  "lang": "pt-PT",
+  "categories": [
+    "education",
+    "productivity",
+    "utilities"
+  ],
+  "screenshots": [
+    {
+      "src": "./assets/screenshots/desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Interface principal no desktop"
+    },
+    {
+      "src": "./assets/screenshots/mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Interface móvel responsiva"
+    }
+  ],
+  "icons": [
+    {
+      "src": "./assets/icons/72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icons/96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icons/128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icons/144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icons/152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icons/192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icons/384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icons/512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Guias de Aprendizagem",
+      "short_name": "Guias",
+      "description": "Aceder aos tutoriais do InVideo AI",
+      "url": "./#guias",
+      "icons": [
+        {
+          "src": "./assets/icons/192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Gerador de Guiões",
+      "short_name": "Gerador",
+      "description": "Criar guiões para vídeos educativos",
+      "url": "./#gerador",
+      "icons": [
+        {
+          "src": "./assets/icons/192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Modelos Educativos",
+      "short_name": "Modelos",
+      "description": "Explorar templates para vídeos",
+      "url": "./#modelos",
+      "icons": [
+        {
+          "src": "./assets/icons/192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

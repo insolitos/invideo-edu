@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InVideo Edu - Guia para Professores</title>
+    <meta name="description" content="Ferramenta gratuita para ajudar professores portugueses a usar o InVideo AI na criação de vídeos educativos">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+    <meta name="theme-color" content="#007c89">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>📹 InVideo Edu</h1>
+            <nav>
+                <button id="menuBtn" class="menu-toggle" aria-label="Abrir menu">☰</button>
+                <ul id="menu" class="nav-menu" role="menubar">
+                    <li role="none"><a href="#guias" role="menuitem">📚 Guias</a></li>
+                    <li role="none"><a href="#modelos" role="menuitem">🎨 Modelos</a></li>
+                    <li role="none"><a href="#gerador" role="menuitem">⚡ Gerador</a></li>
+                    <li role="none"><a href="#sobre" role="menuitem">ℹ️ Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="content" role="main">
+        <!-- Conteúdo será injectado dinamicamente -->
+        <div class="loading">Carregando...</div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p><small>© 2025 InVideo Edu - Licença MIT | Criado para professores portugueses</small></p>
+            <p><small>🇵🇹 Feito com ❤️ para a educação em Portugal</small></p>
+        </div>
+    </footer>
+
+    <!-- Botão de instalação PWA -->
+    <button id="installBtn" class="install-btn" style="display: none;" aria-label="Instalar aplicação">
+        📱 Instalar App
+    </button>
+
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>
